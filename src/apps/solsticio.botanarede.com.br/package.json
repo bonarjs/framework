@@ -1,0 +1,21 @@
+{
+  "name": "@botanarede/solsticio.botanarede.com.br",
+  "version": "1.0.0",
+  "private": true,
+
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "env-cmd -f .env.solsticio next dev -H solsticio.local",
+    "lint": "next lint",
+    "start": "next start",
+    "export": "env-cmd -f .env.solsticio next build && next export --outdir ../../../sites/solsticio.botanarede.com.br",
+
+    "dev:solsticio": "next dev -H solsticio.local src/apps/solsticio.botanarede.com.br",
+    "build:solsticio": "next build apps/solsticio.botanarede.com.br"
+  },
+  "author": "botanarede"
+}

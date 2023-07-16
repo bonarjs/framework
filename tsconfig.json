@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "jcalhau.botanarede.com.br/*": ["src/apps/jcalhau.botanarede.com.br/*"],
+
+      "solsticio.botanarede.com.br/*": ["src/apps/solsticio.botanarede.com.br/*"],
+      "src/@solsticio/use-cases/*": ["src/apps/solsticio.botanarede.com.br/lib/use-cases/*"],
+      "src/@solsticio/helpers/*": ["src/apps/solsticio.botanarede.com.br/lib/helpers/*"],
+
+      "src/@core/*": ["src/bnr-core/components/@core/*"],
+      "src/@shared/*": ["src/bnr-core/components/shared/*"],
+      "src/@use-cases/*": ["src/bnr-core/use-cases/*"],
+      "src/@repositories/*": ["src/bnr-core/repositories/*"],
+      "src/@lib/*": ["src/bnr-core/lib/*"],
+      "src/@helpers/*": ["src/bnr-core/lib/helpers/*"],
+      "apexcharts": [
+        "./node_modules/apexcharts-clevision"
+      ],
+      "apexcharts/*": [
+        "./node_modules/apexcharts-clevision/*"
+      ],
+    },
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "sourceMap":true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "../../../@types/global.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+
+// {
+//   "extends": "../../../tsconfig"
+// }

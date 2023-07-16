@@ -1,0 +1,44 @@
+{
+  "extends": "../../../tsconfig"
+}
+
+// {
+//   "compilerOptions": {
+//     "baseUrl": ".",
+//     "paths": {
+//       "public/*": ["../../../public/*"],
+//       "src/@core/*": ["../../bnr-core/components/@core/*"],
+//       "src/@shared/*": ["../../bnr-core/components/shared/*"],
+//       "src/@use-cases/*": ["../../bnr-core/use-cases/*"],
+//       "src/@repositories/*": ["../../bnr-core/repositories/*"],
+//       "src/@lib/*": ["../../bnr-core/lib/*"]
+//     },
+//     "target": "es5",
+//     "lib": [
+//       "dom",
+//       "dom.iterable",
+//       "esnext"
+//     ],
+//     "allowJs": true,
+//     "skipLibCheck": true,
+//     "strict": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "noEmit": true,
+//     "incremental": true,
+//     "esModuleInterop": true,
+//     "module": "esnext",
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "jsx": "preserve"
+//   },
+//   "include": [
+//     "next-env.d.ts",
+//     "**/*.ts",
+//     "**/*.tsx",
+//     "../../../@types/global.d.ts"
+//   ],
+//   "exclude": [
+//     "node_modules"
+//   ]
+// }
