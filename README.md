@@ -2,9 +2,7 @@
 
 npm install
 
-npm run dev
-
-## criar arquivo .env (setup firebase project)
+## criar arquivo .env.solsticio (antes configurar projeto firebase)
 
 NEXT_PUBLIC_APP_DEV=false
 NEXT_PUBLIC_EMULATOR=false
@@ -44,3 +42,8 @@ npm install -g node-firestore-import-export
 
 ## importar (baixar serviceAccountKey.json no projeto firebase):
 $ npx -p node-firestore-import-export firestore-import -a serviceAccountKey.json -b db_20230704.json
+
+# run local
+## install env-cmd
+npm install -g env-cmd
+npm run dev
