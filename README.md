@@ -4,9 +4,7 @@ npm install
 
 npm run dev
 
-(setup firebase project)
-
-criar arquivo .env
+## criar arquivo .env (setup firebase project)
 
 NEXT_PUBLIC_APP_DEV=false
 NEXT_PUBLIC_EMULATOR=false
@@ -41,7 +39,7 @@ NEXT_PUBLIC_BNR_TEMPLATE_COR2="#3856AE"
 NEXT_PUBLIC_BNR_TEMPLATE_COR3="#71D27E"
 
 # database
-# install node-firestore-import-export
+## install node-firestore-import-export
 npm install -g node-firestore-import-export
 
 ## importar (baixar serviceAccountKey.json no projeto firebase):
