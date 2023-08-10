@@ -1,0 +1,22 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    match /clientes/h46vPPGUeu9Wc10yzerH {
+      
+      match /tabelas/{id} {
+        match /itens-tabela/{id} {
+        	allow get, read, write: if true;
+        }
+      }
+      
+    }
+  }
+  
+  
+  // verificar se usuário está autenticado
+  function isSignedIn() {
+    return request.auth != null;
+  }
+  
+}
