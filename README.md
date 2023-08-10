@@ -39,3 +39,10 @@ NEXT_PUBLIC_BNR_SITE_DESCRICAO="Solstício - Serviços elétricos"
 NEXT_PUBLIC_BNR_TEMPLATE_COR1="#364571"
 NEXT_PUBLIC_BNR_TEMPLATE_COR2="#3856AE"
 NEXT_PUBLIC_BNR_TEMPLATE_COR3="#71D27E"
+
+# database
+# install node-firestore-import-export
+npm install -g node-firestore-import-export
+
+## importar (baixar serviceAccountKey.json no projeto firebase):
+$ npx -p node-firestore-import-export firestore-import -a serviceAccountKey.json -b db_20230704.json
